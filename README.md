@@ -28,8 +28,8 @@ This project serves as a foundation for more complex computer vision systems and
 - │ ├── cats/
 - │ ├── dogs/
 - ├── test/
-- ├── cats/
-- ├── dogs/
+- | ├── cats/
+- | ├── dogs/
 
 
 ---
