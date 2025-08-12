@@ -86,18 +86,35 @@ This project serves as a foundation for more complex computer vision systems and
 ---
 
 ## 🔗 Open in Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cazvMaTUqeDmuFXobxMjmJ7q0tc92tZF?usp=sharing)
 
+---
 
-## 📈 Training Set and Test Set Distribution
+## 📈 Training Set Distribution
 
-![Training Set Distribution](TrainingSetDist.png)  
+![Training Set Distribution](trainingSet.png)  
+
+-Both bars are around 700 that means I have roughly 700 cat images and 700 dog images in my training set.
+-This shows my dataset is balanced, which is good for training a SVM .
+
+---
+
+## 📈 Test Set Distribution
+![Test Set Distribution](TestSet.png)  
+
+-The left bar is slightly lower (~290) than the right (~310), meaning my model predicted a few more dogs than cats in the test set.
+-This doesn’t tell us accuracy — it only tells us how balanced or imbalanced the predictions are.
+
 
 ---
 
 ## 📸 Sample Predictions for cat and dog 
 
-![Predictions](SamplePredictions.png)  
+![Predictions](CatPredict.png)  
+
+
+
+![Predictions](DogPredict.png)  
 
 ---
 
